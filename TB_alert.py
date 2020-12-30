@@ -3,14 +3,15 @@ from bs4 import BeautifulSoup
 import time
 import webbrowser
 
-# Az oldal amit vizsgál
+# The site - Az oldal amit néz
 URL = 'https://bolha.testbike.hu/dh-fr-ossztelos'
 # User Agent
-headers = {"User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'}
+headers = {"User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/206.190.33.156 Safari/537.36'}
 
-# Megnyitja az adott oldalt
+# Funkció ami akkor lép életbe ha van új termék. 
 def OpenTB():
     tb = "https://bolha.testbike.hu/dh-fr-ossztelos"
+    # Megnyitja az oldalt
     webbrowser.open(tb)
 
 one = 1

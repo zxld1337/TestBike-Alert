@@ -6,7 +6,7 @@ import webbrowser
 # The site - Az oldal amit néz
 URL = 'https://bolha.testbike.hu/dh-fr-ossztelos'
 # User Agent
-headers = {"User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/206.190.33.156 Safari/537.36'}
+headers = {"User-Agent": 'Mozilla/5.0} # its has to be your own
 
 # Function that activates when a new bike is available - Funkció ami akkor lép életbe ha van új bicó. 
 def OpenTB():
